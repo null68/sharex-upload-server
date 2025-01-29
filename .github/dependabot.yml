@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod" # Use Go modules
+    directory: "/" # Root directory where the `go.mod` file is located
+    schedule:
+      interval: "weekly" # Check for updates every week
+    open-pull-requests-limit: 5 # Maximum number of open PRs for dependencies
+    labels:
+      - "dependencies"
+      - "automation"
+    reviewers:
+      - "null68"

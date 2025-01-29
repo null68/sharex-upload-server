@@ -1,0 +1,32 @@
+# Go binaries
+/bin/
+/obj/
+
+# Dependency directories
+/vendor/
+
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go modules
+go.sum
+
+# IDE files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc files
+*.bak
+*.swp
